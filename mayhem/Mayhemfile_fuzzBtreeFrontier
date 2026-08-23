@@ -1,0 +1,5 @@
+project: savantenvs/cockroachdb
+target: fuzzBtreeFrontier
+cmds:
+  - cmd: /mayhem/fuzzBtreeFrontier
+    libfuzzer: true

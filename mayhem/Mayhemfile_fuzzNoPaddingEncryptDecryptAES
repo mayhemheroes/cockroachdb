@@ -1,0 +1,5 @@
+project: savantenvs/cockroachdb
+target: fuzzNoPaddingEncryptDecryptAES
+cmds:
+  - cmd: /mayhem/fuzzNoPaddingEncryptDecryptAES
+    libfuzzer: true

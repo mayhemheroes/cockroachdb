@@ -1,0 +1,5 @@
+project: savantenvs/cockroachdb
+target: fuzzuuid
+cmds:
+  - cmd: /mayhem/fuzzuuid
+    libfuzzer: true

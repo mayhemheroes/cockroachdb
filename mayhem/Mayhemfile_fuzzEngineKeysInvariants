@@ -1,0 +1,5 @@
+project: savantenvs/cockroachdb
+target: fuzzEngineKeysInvariants
+cmds:
+  - cmd: /mayhem/fuzzEngineKeysInvariants
+    libfuzzer: true

@@ -1,0 +1,5 @@
+project: savantenvs/cockroachdb
+target: fuzzPrettyPrint
+cmds:
+  - cmd: /mayhem/fuzzPrettyPrint
+    libfuzzer: true

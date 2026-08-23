@@ -1,0 +1,5 @@
+project: savantenvs/cockroachdb
+target: fuzzSessionIDEncoding
+cmds:
+  - cmd: /mayhem/fuzzSessionIDEncoding
+    libfuzzer: true

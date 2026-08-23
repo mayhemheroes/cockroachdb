@@ -1,0 +1,3 @@
+# Keep Docker build context focused; exclude docs/monitoring that aren't needed for the Go fuzz build.
+docs/
+monitoring/
